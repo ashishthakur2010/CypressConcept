@@ -96,7 +96,7 @@ describe("DOM Commands", function () {
     //.should("have.text", 16);
   });
 
-  it.only("filter() Check if the item text includes '72' and price is greater than 15", function () {
+  it("filter() Check if the item text includes '72' and price is greater than 15", function () {
     const expectedTexts = ["Mushroom", "Corn", "Mango", "Orange"]; // Ensure this matches your data
 
     cy.get("@Productlist")
