@@ -1,4 +1,4 @@
-import user from "../fixtures/user.json";
+import user from "../../fixtures/user.json";
 const filePath = "cypress/fixtures/";
 
 describe("Read and Write File Suite", () => {
