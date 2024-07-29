@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "node ./node_modules/cypress/bin/cypress open"
+    "cypress:open": "node ./node_modules/cypress/bin/cypress open",
+    "cypress:run": "node ./node_modules/cypress/bin/cypress run"
   },
   "author": "Ashish Thakur",
   "license": "ISC",
