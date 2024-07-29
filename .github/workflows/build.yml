@@ -11,7 +11,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
-          command: npm run cypress:run
+          command: npm run cypress:runer
 
       - name: Save build folder
         uses: actions/upload-artifact@v4
