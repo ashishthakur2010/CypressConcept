@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+/// <reference types="cypress" />
 import NaukriHomePage from "../PageObjects/NaukriHomePage";
 import NaukriLoginPage from "../PageObjects/NaukriLoginPage";
 import NaukriProfilePage from "../PageObjects/NaukriProfilePage";

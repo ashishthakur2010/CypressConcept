@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+/// <reference types="cypress" />
 import NaukriHomePage from "../PageObjects/NaukriHomePage";
 
 describe("Testing Home Page using POM in cypress", function () {

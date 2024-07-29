@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+/// <reference types="cypress" />
 import NaukriHomePage from "../PageObjects/NaukriLoginPage";
 describe("Login Test", function () {
   beforeEach("Navigate to naukri.com", function () {
