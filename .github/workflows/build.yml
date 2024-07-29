@@ -11,4 +11,4 @@ jobs:
       # - name: Cypress run
       #   uses: cypress-io/github-action@v6
       - name: Run Cypress tests
-        run: npm run cypress:run
+        uses: npm run cypress:run
