@@ -26,8 +26,8 @@ module.exports = defineConfig({
       require("cypress-mochawesome-reporter/plugin")(on);
     },
     specPattern: [
-      "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
-      //"cypress/e2e/Naukri/**/*.cy.{js,jsx,ts,tsx}",
+      //"cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+      "cypress/e2e/Naukri/**/*.cy.{js,jsx,ts,tsx}",
     ],
   },
   includeShadowDom: true,

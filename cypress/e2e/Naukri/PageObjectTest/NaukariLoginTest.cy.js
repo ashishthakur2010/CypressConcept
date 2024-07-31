@@ -48,7 +48,7 @@ describe("Login Test", function () {
           cy.log("salary", salary);
           cy.get("#totalAbsCtc_id").clear().type(salary);
         } else {
-          salary = 3500000;
+          salary = 3000000;
           cy.get("#totalAbsCtc_id").clear().type(salary);
         }
       });

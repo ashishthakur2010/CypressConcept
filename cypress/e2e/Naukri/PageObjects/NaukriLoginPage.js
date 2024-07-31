@@ -11,9 +11,9 @@ class NaukriLoginPage {
     this.elements.url().should("include", "/mnjuser/homepage");
   }
   login(name, email, password) {
-    cy.visit("https://www.naukri.com/"); //, {
-    //   headers: { "Accept-Encoding": "gzip, deflate" },
-    // });
+    cy.visit("https://www.naukri.com/", {
+      headers: { "Accept-Encoding": "gzip, deflate" },
+    });
 
     this.elements.loginLink().click();
     this.elements.userInput().type(email);
