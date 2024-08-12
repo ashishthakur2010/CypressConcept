@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@badeball/cypress-cucumber-preprocessor/*": [
+				"./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"
+			]
+		},
+		"target": "es5",
+		"lib": ["es5", "dom"],
+		"types": ["cypress", "node"]
+		//"esModuleInterop": true // It is fixed error 'TypeError: (0 , cypress_esbuild_preprocessor_1.default) is not a function'
+	},
+	"include": [
+		"./node_modules/cypress",
+		"cypress/*/*.cy.{js,jsx,ts,tsx}",
+		//		"cypress/*/*.js",
+		"**/*.ts",
+		"**/*.js",
+		"cypress.config.js",
+		"cypress/step_definitions/login.ts",
+		"cypress/step_definitions/**/*.{js,ts}"
+	]
+}

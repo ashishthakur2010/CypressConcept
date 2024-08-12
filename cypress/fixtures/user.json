@@ -1,10 +1,10 @@
 {
-  "user": {
-    "firstName": "Ashish",
-    "lastName": "Thakur",
-    "name": "Ashish Thakur",
-    "age": 30,
-    "email": "ashish@example.com",
-    "body": "Fixtures are a great way to mock data for responses to routes"
-  }
+	"user": {
+		"firstName": "Ashish",
+		"lastName": "Thakur",
+		"name": "Ashish Thakur",
+		"age": 30,
+		"email": "ashish@example.com",
+		"body": "Fixtures are a great way to mock data for responses to routes"
+	}
 }

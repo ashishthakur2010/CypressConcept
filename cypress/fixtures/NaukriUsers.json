@@ -1,22 +1,22 @@
 {
-  "user1": {
-    "name": "Ashish Thakur",
-    "age": 33,
-    "ResumeHeadline": "ISTQB certified Principal Test Engineer in Evora Global with overall 9+ years of total IT experience in all phases of software test life cycle, with expertise across modules of ERP & E-Commerce domains. Selenium, SQL database testing.",
-    "email": "ashish.thakur2010@yahoo.com",
-    "password": "rex2020216000",
-    "Work Status": "Experienced",
-    "TotalExperience": [9, 10],
-    "CurrentSalary": 0
-  },
-  "user2": {
-    "name": "Putul Mondal",
-    "age": 31,
-    "ResumeHeadline": "Supply Chain Manager with expertise in planning & analytics. MBA from IIM Calcutta & Certified Supply Chain Analysis, SAP ERP, Six Sigma Green Belt. Skilled in stakeholder management, SQL, and business analytics.",
-    "email": "mondalputul93@gmail.com",
-    "password": "Aooale@12",
-    "Work Status": "Experienced",
-    "Total experience": [6, 7],
-    "Current salary": 3400000
-  }
+	"user1": {
+		"name": "Ashish Thakur",
+		"age": 33,
+		"ResumeHeadline": "ISTQB certified Principal Test Engineer in Evora Global with overall 9+ years of total IT experience in all phases of software test life cycle, with expertise across modules of ERP & E-Commerce domains. Selenium, SQL database testing.",
+		"email": "ashish.thakur2010@yahoo.com",
+		"password": "rex2020216000",
+		"Work Status": "Experienced",
+		"TotalExperience": [9, 10],
+		"CurrentSalary": 0
+	},
+	"user2": {
+		"name": "Putul Mondal",
+		"age": 31,
+		"ResumeHeadline": "Supply Chain Manager with expertise in planning & analytics. MBA from IIM Calcutta & Certified Supply Chain Analysis, SAP ERP, Six Sigma Green Belt. Skilled in stakeholder management, SQL, and business analytics.",
+		"email": "mondalputul93@gmail.com",
+		"password": "Aooale@12",
+		"Work Status": "Experienced",
+		"Total experience": [6, 7],
+		"Current salary": 3400000
+	}
 }

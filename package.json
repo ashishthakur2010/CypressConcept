@@ -1,22 +1,32 @@
 {
-  "name": "cypressconcepts",
-  "version": "1.0.0",
-  "description": "Cypress Automation concepts",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "node ./node_modules/cypress/bin/cypress open",
-    "cypress:run": "node ./node_modules/cypress/bin/cypress run",
-    "cypress:runer": "cypress run"
-  },
-  "author": "Ashish Thakur",
-  "license": "ISC",
-  "devDependencies": {
-    "cypress": "^13.13.1"
-  },
-  "dependencies": {
-    "cypress-dark": "^1.1.0",
-    "cypress-iframe": "^1.0.1",
-    "cypress-mochawesome-reporter": "^3.8.2"
-  }
+	"name": "cypressconcepts",
+	"version": "1.0.0",
+	"description": "Cypress Automation concepts",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"cypress:open": "node ./node_modules/cypress/bin/cypress open",
+		"cypress:run": "node ./node_modules/cypress/bin/cypress run",
+		"cypress:runer": "cypress run"
+	},
+	"cypress-cucumber-preprocessor": {
+		"json": {
+			"enabled": true
+		}
+	},
+	"author": "Ashish Thakur",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^13.13.1"
+	},
+	"dependencies": {
+		"@badeball/cypress-cucumber-preprocessor": "^20.1.1",
+		"@bahmutov/cypress-esbuild-preprocessor": "^2.2.2",
+		"cypress-dark": "^1.1.0",
+		"cypress-iframe": "^1.0.1",
+		"cypress-mochawesome-reporter": "^3.8.2",
+		"fs": "^0.0.1-security",
+		"prettier": "^3.3.3",
+		"typescript": "^5.5.4"
+	}
 }
