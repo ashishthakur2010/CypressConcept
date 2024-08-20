@@ -38,6 +38,17 @@ Cypress.Commands.add('loginWithSession', function (name, email, password) {
 	})
 })
 
+Cypress.Commands.add("ExtractLoginToken",()=>{
+	cy.request("POST","api/user",{
+	'username' :"rahulshetty@gmail.com",
+	'passwors' :"Iamking@00"
+	}).then((res)=>{
+	  expect(res.status).to.eq(200)
+	  Cypress.env("token",res.body.token);
+	
+	})
+})
+
 Cypress.Commands.add('NavigateToProfile', () => {
 	cy.get('.view-profile-wrapper a')
 		.should('have.text', 'View profile')
